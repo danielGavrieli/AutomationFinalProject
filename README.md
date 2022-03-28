@@ -8,29 +8,29 @@ The project contains a generic but smart automation infrastructure. It is build 
 
 **The project is an example of infrastructure for automation testing of different kinds of application such as:**
 
--Web application
--Mobile application
--Web API
--Electron application
--Desktop application
+- Web application
+- Mobile application
+- Web API
+- Electron application
+- Desktop application
 
 **The project includes using:**
 
--Page object design pattern
--Project layers
--Support of different browsers
--Failure mechanism
--Reporting system
--Data driver testing
--Visual element testing
--Reading from external files
--DB connection
--CI support
+- Page object design pattern
+- Project layers
+- Support of different browsers
+- Failure mechanism
+- Reporting system
+- Data driver testing
+- Visual element testing
+- Reading from external files
+- DB connection
+- CI support
 
 **Applications under test in this project:**
 
--SwagLabs - web
--Mortagage calculator - mobile
--Student list - API
--ToDo List - Electron
--Windows calculator - Desktop
+- SwagLabs - web
+- Mortagage calculator - mobile
+- Student list - API
+- ToDo List - Electron
+- Windows calculator - Desktop
