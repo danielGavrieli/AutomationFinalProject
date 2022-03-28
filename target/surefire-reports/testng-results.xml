@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="81275" started-at="2022-03-11T18:17:35 IST" finished-at="2022-03-11T18:18:56 IST">
+    <groups>
+    </groups>
+    <test name="Web Tests" duration-ms="81275" started-at="2022-03-11T18:17:35 IST" finished-at="2022-03-11T18:18:56 IST">
+      <class name="sanity.SwagLabsWeb">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:sanity.SwagLabsWeb@1e287667]" name="startSession" is-config="true" duration-ms="68238" started-at="2022-03-11T18:17:36 IST" finished-at="2022-03-11T18:18:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.SwagLabsWeb@1e287667]" name="beforeMethod" is-config="true" duration-ms="568" started-at="2022-03-11T18:18:44 IST" finished-at="2022-03-11T18:18:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.SwagLabsWeb.test01_verifyHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test01_verifyHeader()[pri:0, instance:sanity.SwagLabsWeb@1e287667]" name="test01_verifyHeader" duration-ms="1118" started-at="2022-03-11T18:18:46 IST" description="Test 01 - Verify Header" finished-at="2022-03-11T18:18:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_verifyHeader -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.SwagLabsWeb@1e287667]" name="afterMethod" is-config="true" duration-ms="3" started-at="2022-03-11T18:18:48 IST" finished-at="2022-03-11T18:18:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:sanity.SwagLabsWeb@1e287667]" name="endSession" is-config="true" duration-ms="8312" started-at="2022-03-11T18:18:48 IST" finished-at="2022-03-11T18:18:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- sanity.SwagLabsWeb -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- Web Suite -->
+</testng-results>

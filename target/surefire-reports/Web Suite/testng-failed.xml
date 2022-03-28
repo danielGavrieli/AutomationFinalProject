@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Web Suite]">
+  <test thread-count="5" verbose="0" name="Web Tests(failed)">
+    <parameter name="PlatformName" value="api"/>
+    <classes>
+      <class name="sanity.StudentsAPI">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="startSession"/>
+          <include name="endSession"/>
+          <include name="afterMethod"/>
+          <include name="test02_addStudentAndVerify"/>
+          <include name="test03_updateStudentAndVerify"/>
+          <include name="test01_verifyStudentName"/>
+          <include name="test04_deleteStudentAndVerify"/>
+        </methods>
+      </class> <!-- sanity.StudentsAPI -->
+    </classes>
+  </test> <!-- Web Tests(failed) -->
+</suite> <!-- Failed suite [Web Suite] -->
